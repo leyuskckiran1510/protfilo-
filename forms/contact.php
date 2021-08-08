@@ -1,6 +1,6 @@
 <?php
-$to = "me@example.com"; // Your Brand Mail ID
-$from = $_POST['email'] ; // Replace it with your From Mail ID
+$to = "me@example.com";
+$from = $_POST['email'] ; 
 
 $headers = "From: " .  $_POST['name'];
 
