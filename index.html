@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>iPortfolio Bootstrap Template - Index</title>
+  <title>Portfolio_Leyuskc</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -419,7 +419,10 @@
 			<div class="row"> 
 			<div class="card-bl">
 				<div class="image">
-				<img src="http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s200/Cristina-Otero-2.jpg"/>
+				<video width="350" height="300" autoplay muted loop>
+				<source src="assets/img/flask.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
 			</div>
 			<p class="description">
 			<div class="details-bl">
@@ -437,7 +440,10 @@
 			<div class="row"> 
 			<div class="card-bl">
 				<div class="image">
-				<img src="http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s200/Cristina-Otero-2.jpg"/>
+				<video width="350" height="300" autoplay muted loop>
+				<source src="assets/img/flask.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
 			</div>
 			<p class="description">
 			<div class="details-bl">
@@ -455,7 +461,10 @@
 			<div class="row"> 
 			<div class="card-bl">
 				<div class="image">
-				<img src="http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s200/Cristina-Otero-2.jpg"/>
+				<video width="350" height="300" autoplay muted loop>
+				<source src="assets/img/photoshop.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
 			</div>
 			<p class="description">
 			<div class="details-bl">
@@ -472,7 +481,7 @@
 			<div class="row"> 
 			<div class="card-bl">
 				<div class="image">
-				<img src="http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s200/Cristina-Otero-2.jpg"/>
+				<img src="assets/img/graphics.jpg" >
 			</div>
 			<p class="description">
 			<div class="details-bl">
@@ -489,7 +498,10 @@
 			<div class="row"> 
 			<div class="card-bl">
 				<div class="image">
-				<img src="http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s200/Cristina-Otero-2.jpg"/>
+				<video width="350" height="300" autoplay muted loop>
+				<source src="assets/img/flask.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
 			</div>
 			<p class="description">
 			<div class="details-bl">
@@ -509,7 +521,10 @@
 			<div class="row"> 
 			<div class="card-bl">
 				<div class="image">
-				<img src="http://1.bp.blogspot.com/-EhPr4LXcywE/Udr594sPHTI/AAAAAAAAAJ4/Tv4y4CBLTPM/s200/Cristina-Otero-2.jpg"/>
+				<video width="350" height="300" autoplay muted loop>
+				<source src="assets/img/webscraping.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video>
 			</div>
 			<p class="description">
 			<div class="details-bl">
@@ -668,35 +683,34 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="mailto:kdhakal1510@gmail.com">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" id="name" required>
+                  <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email"  name="email" id="email" required>
+                  <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Subject</label>
-                <input type="text"  name="subject" id="subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea name="message" rows="10" required></textarea>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center">
-		<button type="submit">Send Message</button>
-		</div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
+
         </div>
 
       </div>
@@ -708,6 +722,7 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
